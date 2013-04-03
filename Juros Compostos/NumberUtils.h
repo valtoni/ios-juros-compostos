@@ -11,5 +11,6 @@
 @interface NumberUtils : NSObject
 
 void analyzeThis(id anyObject);
+NSNumber* toNumber(NSString* string);
 
 @end

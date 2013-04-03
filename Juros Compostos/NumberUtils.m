@@ -15,4 +15,14 @@ void analyzeThis(id anyObject)
     NSLog(@"Object %p: %zu, %@", anyObject, sizeof(anyObject), anyObject);
 }
 
+NSNumber* toNumber(NSString* string)
+{
+    NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+    [f setNumberStyle:NSNumberFormatterDecimalStyle];
+    NSNumber * myNumber = [f numberFromString:string];
+    return myNumber;
+}
+
+
+
 @end

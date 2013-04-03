@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		482A85631700D824004303EA /* NumberUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 482A85621700D824004303EA /* NumberUtils.m */; };
+		482F4A5917014C9C004B1C75 /* Money-Bag-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 482F4A5817014C9C004B1C75 /* Money-Bag-256.png */; };
+		482F4A5E17065CD1004B1C75 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482F4A5C17065C8B004B1C75 /* CoreTelephony.framework */; };
+		482F4A6217071997004B1C75 /* Composto.m in Sources */ = {isa = PBXBuildFile; fileRef = 482F4A6117071997004B1C75 /* Composto.m */; };
+		482F4A6917071B69004B1C75 /* Simples.m in Sources */ = {isa = PBXBuildFile; fileRef = 482F4A6817071B69004B1C75 /* Simples.m */; };
+		487C92EB1709591F005AC574 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 487C92EA1709591F005AC574 /* Factory.m */; };
+		487C92ED17096935005AC574 /* comodyssey12-4.png_w48h48.png in Resources */ = {isa = PBXBuildFile; fileRef = 487C92EC17096935005AC574 /* comodyssey12-4.png_w48h48.png */; };
+		487C92EF17096975005AC574 /* misc_elevator_stair.png in Resources */ = {isa = PBXBuildFile; fileRef = 487C92EE17096975005AC574 /* misc_elevator_stair.png */; };
+		487C92F117096A33005AC574 /* elev_icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 487C92F017096A33005AC574 /* elev_icon.gif */; };
 		4890F81E1675766B00C9054F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4890F81D1675766B00C9054F /* UIKit.framework */; };
 		4890F8201675766B00C9054F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4890F81F1675766B00C9054F /* Foundation.framework */; };
 		4890F8221675766B00C9054F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4890F8211675766B00C9054F /* CoreGraphics.framework */; };
@@ -24,6 +32,18 @@
 /* Begin PBXFileReference section */
 		482A85611700D824004303EA /* NumberUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberUtils.h; sourceTree = "<group>"; };
 		482A85621700D824004303EA /* NumberUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberUtils.m; sourceTree = "<group>"; };
+		482F4A5817014C9C004B1C75 /* Money-Bag-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Money-Bag-256.png"; path = "../../../Downloads/Money-Bag-256.png"; sourceTree = "<group>"; };
+		482F4A5C17065C8B004B1C75 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		482F4A6017071997004B1C75 /* Composto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Composto.h; sourceTree = "<group>"; };
+		482F4A6117071997004B1C75 /* Composto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Composto.m; sourceTree = "<group>"; };
+		482F4A63170719D2004B1C75 /* Juros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Juros.h; sourceTree = "<group>"; };
+		482F4A6717071B68004B1C75 /* Simples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simples.h; sourceTree = "<group>"; };
+		482F4A6817071B69004B1C75 /* Simples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Simples.m; sourceTree = "<group>"; };
+		487C92E91709591F005AC574 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		487C92EA1709591F005AC574 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		487C92EC17096935005AC574 /* comodyssey12-4.png_w48h48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comodyssey12-4.png_w48h48.png"; sourceTree = "<group>"; };
+		487C92EE17096975005AC574 /* misc_elevator_stair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misc_elevator_stair.png; sourceTree = "<group>"; };
+		487C92F017096A33005AC574 /* elev_icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = elev_icon.gif; sourceTree = "<group>"; };
 		4890F8191675766B00C9054F /* Juros Compostos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Juros Compostos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4890F81D1675766B00C9054F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4890F81F1675766B00C9054F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4890F81E1675766B00C9054F /* UIKit.framework in Frameworks */,
+				482F4A5E17065CD1004B1C75 /* CoreTelephony.framework in Frameworks */,
 				4890F8201675766B00C9054F /* Foundation.framework in Frameworks */,
 				4890F8221675766B00C9054F /* CoreGraphics.framework in Frameworks */,
 			);
@@ -56,9 +77,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		482F4A5F17071929004B1C75 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				482F4A6017071997004B1C75 /* Composto.h */,
+				482F4A6117071997004B1C75 /* Composto.m */,
+				482F4A63170719D2004B1C75 /* Juros.h */,
+				482F4A6717071B68004B1C75 /* Simples.h */,
+				482F4A6817071B69004B1C75 /* Simples.m */,
+				487C92E91709591F005AC574 /* Factory.h */,
+				487C92EA1709591F005AC574 /* Factory.m */,
+			);
+			name = Business;
+			sourceTree = "<group>";
+		};
 		4890F80E1675766B00C9054F = {
 			isa = PBXGroup;
 			children = (
+				482F4A5817014C9C004B1C75 /* Money-Bag-256.png */,
 				4890F8231675766B00C9054F /* Juros Compostos */,
 				4890F81C1675766B00C9054F /* Frameworks */,
 				4890F81A1675766B00C9054F /* Products */,
@@ -76,6 +112,7 @@
 		4890F81C1675766B00C9054F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				482F4A5C17065C8B004B1C75 /* CoreTelephony.framework */,
 				4890F81D1675766B00C9054F /* UIKit.framework */,
 				4890F81F1675766B00C9054F /* Foundation.framework */,
 				4890F8211675766B00C9054F /* CoreGraphics.framework */,
@@ -90,6 +127,7 @@
 				4890F82D1675766B00C9054F /* JurosCompostosAppDelegate.m */,
 				4890F8351675766B00C9054F /* JurosCompostosViewController.h */,
 				4890F8361675766B00C9054F /* JurosCompostosViewController.m */,
+				482F4A5F17071929004B1C75 /* Business */,
 				4890F8381675766B00C9054F /* JurosCompostosViewController.xib */,
 				4890F8241675766B00C9054F /* Supporting Files */,
 				482A85611700D824004303EA /* NumberUtils.h */,
@@ -101,6 +139,9 @@
 		4890F8241675766B00C9054F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				487C92F017096A33005AC574 /* elev_icon.gif */,
+				487C92EE17096975005AC574 /* misc_elevator_stair.png */,
+				487C92EC17096935005AC574 /* comodyssey12-4.png_w48h48.png */,
 				4890F8251675766B00C9054F /* Juros Compostos-Info.plist */,
 				4890F8261675766B00C9054F /* InfoPlist.strings */,
 				4890F8291675766B00C9054F /* main.m */,
@@ -169,6 +210,10 @@
 				4890F8321675766B00C9054F /* Default@2x.png in Resources */,
 				4890F8341675766B00C9054F /* Default-568h@2x.png in Resources */,
 				4890F83A1675766B00C9054F /* JurosCompostosViewController.xib in Resources */,
+				482F4A5917014C9C004B1C75 /* Money-Bag-256.png in Resources */,
+				487C92ED17096935005AC574 /* comodyssey12-4.png_w48h48.png in Resources */,
+				487C92EF17096975005AC574 /* misc_elevator_stair.png in Resources */,
+				487C92F117096A33005AC574 /* elev_icon.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +228,9 @@
 				4890F82E1675766B00C9054F /* JurosCompostosAppDelegate.m in Sources */,
 				4890F8371675766B00C9054F /* JurosCompostosViewController.m in Sources */,
 				482A85631700D824004303EA /* NumberUtils.m in Sources */,
+				482F4A6217071997004B1C75 /* Composto.m in Sources */,
+				482F4A6917071B69004B1C75 /* Simples.m in Sources */,
+				487C92EB1709591F005AC574 /* Factory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
